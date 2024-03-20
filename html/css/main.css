@@ -3,6 +3,10 @@ body {
     background-color: #584AFF;
     height: 100vh;
     background-size: cover;
+    font-family: "Inter", sans-serif;
+    font-weight: 1000;
+    font-size: 24px;
+    color: white;
 }
 
 .header {
@@ -18,12 +22,88 @@ body {
     align-items: center;
 }
 
+.header-logo{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
 .rectangle {
     background-color: #09053F;
     background-size: cover;
     opacity: 80%;
 }
 
-.nav {
+.nav{
+    margin-left: 51px;
+}
+.nav-item{
     text-decoration: none;
+    color: white;
+    margin-right: 31px;
+}
+
+.article{
+    margin-top: 457px;
+    margin-left: 30px;
+}
+
+.main{
+    margin: 0;
+    padding: 0;
+    margin-top: 60px;
+}
+.main-item-left{
+    margin-top: 60px;
+    padding: 0;
+}
+
+
+.main-item-center{
+    margin-top: 60px;
+    margin-left: 330px;
+}
+
+
+.main-item-right{
+    margin-top: 60px;
+    margin-bottom: 60px;
+    margin-left: 262px;
+    padding-right: 0px 0px;
+    align-items: center;
+}
+
+.bottom{
+    background-color: #09053F;
+    background-size: 100vh;
+    opacity: 80%;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.address-text{
+    margin-left: 30px;
+}
+
+.rights-text{
+    margin-left: 292px;
+    margin-right: 292px;
+}
+
+.price{
+    margin: 200px 360px;
+    display: flex;
+    
+}
+
+.card{
+    margin: 15px 15px;
+    padding: 50px 50px;
+    background-color: #09053F;
+    opacity: 80%;
+}
+
+.line{
+    display: flex;
+    align-items: center;
 }
